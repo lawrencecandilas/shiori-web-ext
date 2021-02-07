@@ -1,3 +1,9 @@
+# Work in progress
+
+I forked this because I use Shiori behind a reverse proxy.  There's patches to make Shiori work in this situation, but the extension still doesn't work.  I'm applying a fix for that.  I'm new to this process so bear with me.
+
+---
+
 # Shiori Web Extension
 
 [![Donate](https://img.shields.io/badge/donate-PayPal-green.svg)](https://www.paypal.me/RadhiFadlillah)
