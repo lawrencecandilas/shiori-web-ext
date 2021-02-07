@@ -149,7 +149,7 @@ async function removeBookmark() {
     // Create API URL
     var apiURL = "";
     try {
-        apiURL = new URL("/api/bookmarks/ext", config.server);
+        apiURL = new URL(config.server + "/api/bookmarks/ext");
     } catch(err) {
         throw new Error(`${config.server} is not a valid url`);
     }
@@ -184,7 +184,7 @@ async function saveBookmark(tags) {
     // Create API URL
     var apiURL = "";
     try {
-        apiURL = new URL("/api/bookmarks/ext", config.server);
+        apiURL = new URL(config.server + "/api/bookmarks/ext");
     } catch(err) {
         throw new Error(`${config.server} is not a valid url`);
     }
